@@ -8,12 +8,10 @@ int main(int argc, char *argv[]) {
 	printf("Input an integer : ");
 	scanf("%d", &num);
 	
-	if (num>0) {
-		printf("yangsu\n");
-	} else if (num<0) {
-		printf("yumsu\n");
-	}	else {
-		printf("0\n");
+	if (num<0) {
+		printf("absolute is %d.\n", -num);
+	} else {
+		printf("absolute is %d.\n", num);
 	}
 	
 	return 0;
